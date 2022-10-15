@@ -1,0 +1,33 @@
+**data/
+**.csv
+**.xlsx
+**.txt 
+**.ipynb_checkpoints
+
+
+**__pycache__/
+**.py[cod]
+*$py.class
+# folders
+**aws-glue-samples-master/
+**course-master-big-data-with-pyspark-and-aws-main/
+**output/
+**.vscode/
+**metastore_db/
+# pthon env
+**gha-env/
+**ghalib/
+**venv/
+
+# files
+**.xml
+**.xlsx
+**.xls
+**.csv
+**.zip
+**.rar
+**.7z
+**.tar
+**.gz
+**.json
+**.pdf 
