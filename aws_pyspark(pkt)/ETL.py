@@ -37,15 +37,15 @@ word_count.show()
 
 # %%
 # LOAD 
-driver = "com.mysql.jdbc.Driver"
-url = 'jdbc:mysql://database-2.cjbysn8oqrq1.us-east-1.rds.amazonaws.com/'
-table = 'avinash_schema.wordcount'
-user='admin'
-password='ad789min'
+# driver = "com.mysql.jdbc.Driver"
+# url = 'jdbc:mysql://database-2.cjbysn8oqrq1.us-east-1.rds.amazonaws.com/'
+# table = 'avinash_schema.wordcount'
+# user='admin'
+# password='ad789min'
 
-word_count.write.mode('append').format("jdbc").option("url",url).option("driver",driver)\
-    .option("dbtable",table).option("mode","append").option("user",user)\
-        .option("password",password).save()
+# word_count.write.mode('append').format("jdbc").option("url",url).option("driver",driver)\
+#     .option("dbtable",table).option("mode","append").option("user",user)\
+#         .option("password",password).save()
 
 # %%
 # LOAD 
